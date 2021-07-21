@@ -38,12 +38,13 @@ func main() {
 	}
 
 	opts := &util.GeneratorOptions{
-		ProviderName:       "equinixmetal",
-		ProviderData:       metal.Provider(),
-		ProviderImportPath: "github.com/equinix/terraform-provider-metal/metal",
-		Version:            "v1alpha1",
-		APIsPath:           apisPath,
-		ControllerPath:     controllerPath,
+		ProviderName:         "equinixmetal",
+		ProviderNameOriginal: "metal",
+		ProviderData:         metal.Provider(),
+		ProviderImportPath:   "github.com/equinix/terraform-provider-metal/metal",
+		Version:              "v1alpha1",
+		APIsPath:             apisPath,
+		ControllerPath:       controllerPath,
 	}
 	err := util.Generate(opts)
 	if err != nil {
