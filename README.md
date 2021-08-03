@@ -3,7 +3,7 @@
 
 # Kubeform Equinix Metal Provider Code Generator
 
-Generates code for Kubeform Equinix Metal Provider
+Kubeform code generator for [Terraform Equinix Metal Provider](https://github.com/equinix/terraform-provider-metal)
 
 ## Installation
 
