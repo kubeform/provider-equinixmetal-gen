@@ -42,6 +42,7 @@ func main() {
 		ProviderNameOriginal: "metal",
 		ProviderData:         metal.Provider(),
 		ProviderImportPath:   "github.com/equinix/terraform-provider-metal/metal",
+		ProviderConfig:       "equinix/metal",
 		Version:              "v1alpha1",
 		APIsPath:             apisPath,
 		ControllerPath:       controllerPath,
